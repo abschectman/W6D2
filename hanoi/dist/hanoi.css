@@ -1,0 +1,31 @@
+.hanoi{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  height: 200px;
+}
+.hanoi > ul{
+  border-bottom: 10px solid black;
+  width: 50px;
+  height: 100px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  background-color: aqua;
+  height: 10px;
+  margin: 5px;
+  width: 40px;
+  margin: 5 auto;
+  /* margin-right: 40px */
+}
+
+#a2 {
+  width: 900px;
+}
