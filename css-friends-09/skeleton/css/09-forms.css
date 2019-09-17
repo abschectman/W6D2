@@ -1,0 +1,47 @@
+/* PHASE 9: Forms */
+.form-fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  background-color: gray;
+}
+
+.post-form {
+  display: flex;
+}
+
+.post-form > a {
+  margin: 7px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.input > label {
+  font-weight: bold;
+}
+
+.input > input {
+  display: block;
+  height: 65px; 
+  width: 400px;
+  background-color: white;
+}
+
+.input > #post-body {
+  height: 65px; 
+} 
+
+.input > #post-title {
+  height: 15px; 
+} 
+
+.submit {
+  margin-left: 50px;
+}
